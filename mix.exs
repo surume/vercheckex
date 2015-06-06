@@ -27,6 +27,10 @@ defmodule Vercheckex.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:httpoison, "~> 0.6"},
+      {:floki, "~> 0.2"},
+      {:timex, "~> 0.13.4"}
+    ]
   end
 end
